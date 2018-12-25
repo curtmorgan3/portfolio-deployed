@@ -1,0 +1,10 @@
+.footer {
+	grid-column: 1 / span 4;
+	grid-row: 5;
+	text-align: center;
+}
+
+.footer > h1 {
+	maring: 0;
+	padding: 0;
+}
