@@ -31,7 +31,7 @@ export default function Technologies(props){
 					<p>HTML 5 | CSS 3</p>
 					<p>SQL</p>
 				</div>
-				<p><a >See the code for this site</a></p>
+				<p><a href='https://github.com/curtmorgan3/portfolio'>See the code for this site</a></p>
 			</div>
 		</div>
 	)

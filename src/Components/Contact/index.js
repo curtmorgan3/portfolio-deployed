@@ -71,6 +71,9 @@ class Contact extends React.Component{
 				: null}
 				<div className='contact-wrap'>
 					<form className='contact-form'>
+						<h3>Need something built? Let's get started</h3>
+						<p>Tell me below what you have in mind and I'll reach out to you
+							 as soon as I can</p>
 						<FormControl
 							type='text'
 							name='name'
