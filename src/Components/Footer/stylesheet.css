@@ -1,10 +1,15 @@
 .footer {
-	grid-column: 1 / span 4;
-	grid-row: 5;
-	text-align: center;
+	display: flex;
+	background-color: #222222;
+	position: fixed;
+	height: 150px;
+	width: 100%;
+	margin: 0;
+	bottom: 0;
 }
 
 .footer > h1 {
-	maring: 0;
-	padding: 0;
+
+	justify-content: center;
+	align-items: center;
 }

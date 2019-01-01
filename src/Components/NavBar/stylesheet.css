@@ -1,0 +1,8 @@
+ .navbar{
+
+}
+
+/* Navbar Buttons */
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #FFFFF9;
+}
