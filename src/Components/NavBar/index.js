@@ -11,16 +11,29 @@ function NavBar(props){
 			</Navbar.Header>
 			<Navbar.Collapse className='nav'>
 				<Nav pullRight='true'>
-					<NavItem className='nav-item' >
+					<NavItem className='nav-item'
+									 onClick={() => props.setView('samples')}
+					>
 						Samples
 					</NavItem>
-					<NavItem className='nav-item' >
+					<NavItem className='nav-item'
+									 onClick={() => props.setView('technologies')}
+					>
 						Technologies
 					</NavItem>
-					<NavItem className='nav-item' >
-						Resume
+					<NavItem className='nav-item'
+									 onClick={() => window.open('https://www.linkedin.com/in/curtmorgan3/', '_blank')}
+					>
+						LinkedIn
 					</NavItem>
-					<NavItem className='nav-item' >
+					<NavItem className='nav-item'
+									 onClick={() => window.open('https://github.com/curtmorgan3', '_blank')}
+					>
+						GitHub
+					</NavItem>
+					<NavItem className='nav-item'
+									 onClick={() => props.setView('contact')}
+					>
 						Contact
 					</NavItem>
 				</Nav>

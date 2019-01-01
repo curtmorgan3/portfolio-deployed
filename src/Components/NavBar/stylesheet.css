@@ -1,8 +1,14 @@
- .navbar{
-
-}
 
 /* Navbar Buttons */
 .navbar-inverse .navbar-nav>li>a:hover {
 	color: #FFFFF9;
+}
+
+a {
+	color: #9d9d9d;
+}
+
+a:hover {
+	color: #FFFFF9;
+	text-decoration: none;
 }

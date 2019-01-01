@@ -9,11 +9,38 @@ import Samples from './Components/Samples';
 import './App.css';
 
 class App extends Component {
+	constructor(props){
+		super(props);
+		this.state = {
+			currentView: '',
+		}
+		this.setView = this.setView.bind(this);
+	}
+
+	setView(view){
+		this.setState({
+			currentView: view,
+		})
+	}
+	viewController(){
+		switch(this.state.currentView){
+			case 'main':
+			return <Main />
+			case 'technologies':
+			return <Technologies />
+			case 'contact':
+			return <Contact />
+			case 'samples':
+			return <Samples />
+			default :
+			return <Main setView={this.setView}/>
+		}
+	}
   render() {
     return (
       <div className="App">
-				<NavBar />
-				<Samples />
+				<NavBar setView={this.setView}/>
+				{this.viewController()}
       </div>
     );
   }

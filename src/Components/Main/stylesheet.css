@@ -18,14 +18,14 @@
 	justify-content: center;
 }
 
-.main > a {
+.main > p {
 	text-decoration: none;
 	color: #FFFFF9;
 	justify-content: center;
 	display: flex;
 	margin-top: 30%;
 }
-.main > a:hover {
+.main > p:hover {
 	color: #40403F;
 	cursor: pointer;
 }

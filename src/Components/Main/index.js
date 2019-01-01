@@ -10,7 +10,7 @@ export default function Main(props){
 				<h4>Web apps from start to finish.</h4>
 				<h4>Style. Function. Scale</h4>
 			</div>
-			<a >See My Work</a>
+			<p onClick={()=> props.setView('samples')}>See My Work</p>
 		</div>
 	)
 };
