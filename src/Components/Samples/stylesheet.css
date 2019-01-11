@@ -3,13 +3,13 @@
 	.samples {
 		height: 100vh;
 		width: 100vw;
-
-		background-color: #7F7F7C;
+		background-color: #A99280;
 		display: flex;
 		color: #FFFFF9;
+		text-shadow: 1px 1px black;
 		align-items:center;
 		justify-content: center;
-			overflow: scroll;
+		overflow: scroll;
 	}
 
 	.samples-wrapper {
@@ -35,6 +35,16 @@
 		margin: 25px 25px 25px 10%;
 	}
 
+	.sample-link{
+		color: #FFFFF9;
+		margin-right: 10px;
+	}
+
+	.sample-link:hover{
+		color: black;
+		cursor: pointer;
+	}
+
 	.sample > img{
 		height: 400px;
 		width: 600px;
@@ -53,8 +63,7 @@
 	.samples {
 		height: 100vh;
 		width: 100vw;
-
-		background-color: #7F7F7C;
+		background-color: #A99280;
 		display: flex;
 		flex-direction: column;
 		color: #FFFFF9;

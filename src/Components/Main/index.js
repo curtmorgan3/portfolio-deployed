@@ -1,4 +1,5 @@
 import React from 'react';
+import { Jumbotron } from 'react-bootstrap';
 import './stylesheet.css';
 
 export default function Main(props){

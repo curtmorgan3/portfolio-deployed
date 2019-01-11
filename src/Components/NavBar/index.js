@@ -11,6 +11,11 @@ function NavBar(props){
 			</Navbar.Header>
 			<Navbar.Collapse className='nav'>
 				<Nav pullRight='true'>
+				<NavItem className='nav-item'
+								 onClick={() => props.setView('main')}
+				>
+					Home
+				</NavItem>
 					<NavItem className='nav-item'
 									 onClick={() => props.setView('samples')}
 					>
