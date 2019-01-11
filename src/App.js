@@ -24,7 +24,7 @@ class App extends Component {
 	viewController(){
 		switch(this.state.currentView){
 			case 'main':
-			return <Main />
+			return <Main setView={this.setView}/>
 			case 'technologies':
 			return <Technologies />
 			case 'contact':
