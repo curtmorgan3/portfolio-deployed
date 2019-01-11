@@ -12,6 +12,18 @@
 	.item.active > h3 {
 		color: #FFFFFF;
 	}
+	.item.active.left > h3 {
+		color: #FFFFFF;
+	}
+	.item.next.left > h3 {
+		color: #FFFFFF;
+	}
+	.item.active.right > h3 {
+		color: #FFFFFF;
+	}
+	.item.prev.right > h3 {
+		color: #FFFFFF;
+	}
 	.item.active.left {
 		height: 100vh;
 		display: flex;
