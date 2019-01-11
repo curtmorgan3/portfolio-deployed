@@ -31,7 +31,7 @@ class Contact extends React.Component{
 				email: this.state.email,
 				message: this.state.message,
 			}
-			emailjs.send('gmail', 'template_WybFlKmz', templateParams, `${process.env.REACT_APP_EMAIL_USER_ID}`)
+			emailjs.send('gmail', 'template_WybFlKmz', templateParams, `user_GZQWMLe7UdB2B37J4nwin`)
 			this.setState({
 				name:'',
 				email:'',
