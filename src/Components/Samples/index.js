@@ -36,6 +36,9 @@ export default function Samples(props){
 						PostgreSQL database.
 					</p>
 				</div>
+				<div className='sample-last'>
+					<p><a href='https://github.com/curtmorgan3/portfolio' target='_blank'>See the code for this site</a></p>
+				</div>
 			</div>
 		</div>
 	)

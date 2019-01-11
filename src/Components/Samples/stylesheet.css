@@ -35,6 +35,21 @@
 		margin: 25px 25px 25px 10%;
 	}
 
+	.sample-last{
+		font-size: 2em;
+		width: 100%;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		margin: 0 25px 25px 10%;
+	}
+	.sample-last > p > a{
+		color: #FFFFF9;
+	}
+	.sample-last > p > a:hover{
+		color: black;
+	}
+
 	.sample-link{
 		color: #FFFFF9;
 		margin-right: 10px;
