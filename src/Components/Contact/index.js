@@ -86,7 +86,7 @@ class Contact extends React.Component{
 						<FormControl
 							type='email'
 							name='email'
-							placeholder='Email'
+							placeholder='Your Email'
 							onChange={this.handleChange}
 						/>
 						</FormGroup>
