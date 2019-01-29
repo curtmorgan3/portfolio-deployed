@@ -23,7 +23,7 @@ class Contact extends React.Component{
 			[e.target.name]: e.target.value
 		})
 	}
-	handleSubmit(e){
+	async handleSubmit(e){
 		const isValid = this.getValidationState();
 		if (isValid === 'success'){
 			const templateParams = {
@@ -31,12 +31,13 @@ class Contact extends React.Component{
 				email: this.state.email,
 				message: this.state.message,
 			}
-			emailjs.send('gmail', 'template_WybFlKmz', templateParams, `user_GZQWMLe7UdB2B37J4nwin`)
+			await emailjs.send('gmail', 'template_WybFlKmz', templateParams, `user_GZQWMLe7UdB2B37J4nwin`)
 			this.setState({
 				name:'',
 				email:'',
 				message:'',
 			})
+			window.location.reload();
 		} else if (isValid === 'error'){
 			this.setState({
 				showAlert: true

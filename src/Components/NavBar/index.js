@@ -27,6 +27,11 @@ function NavBar(props){
 						Technologies
 					</NavItem>
 					<NavItem className='nav-item'
+									 onClick={() => window.open('https://drive.google.com/file/d/1b8DiTmHTDTpqSdHGbV4M4YkWaOHINeEH/view?usp=sharing', '_blank')}
+					>
+						Resume
+					</NavItem>
+					<NavItem className='nav-item'
 									 onClick={() => window.open('https://www.linkedin.com/in/curtmorgan3/', '_blank')}
 					>
 						LinkedIn

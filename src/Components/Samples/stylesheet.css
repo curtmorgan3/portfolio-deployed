@@ -3,10 +3,9 @@
 	.samples {
 		height: 100vh;
 		width: 100vw;
-		background-color: #A99280;
+		background-image: linear-gradient(white, grey);
 		display: flex;
-		color: #FFFFF9;
-		text-shadow: 1px 1px black;
+		color: black;
 		align-items:center;
 		justify-content: center;
 		overflow: scroll;
@@ -79,7 +78,7 @@
 	.samples {
 		height: 100vh;
 		width: 100vw;
-		background-color: #A99280;
+		background-image: linear-gradient(white, grey);
 		display: flex;
 		flex-direction: column;
 		color: #FFFFF9;
