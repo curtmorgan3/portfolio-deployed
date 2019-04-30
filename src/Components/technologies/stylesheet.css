@@ -1,5 +1,28 @@
+
+.tree-wrapper{
+	width: 100vw;
+	height: 100vh;
+	color: #FFFFFF;
+}
+.nodeNameBase{
+	stroke: #FFFFFF;
+}
+.nodeAttributesBase{
+	stroke: #FFFFFF;
+
+}
+
 /* iPad and Larger */
 @media only screen and (min-device-width:375px){
+
+	.technologies-page{
+		background-color: #222222;
+		height: 100vh;
+		width: 100vw;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 
 	.tech-carousel{
 		background-color: grey;

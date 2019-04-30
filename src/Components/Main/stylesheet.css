@@ -86,16 +86,34 @@
 
 /****************************************************************************************/
 /* iPad and Larger */
+canvas{
+	fontFamily: sans-serif;
+  textAlign: center;
+  height: 100%;
+  background: #222;
+  display: flex;
+  justifyContent: center;
+  alignItems: center;
+	position: relative;
+}
+.jumbotron{
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+}
+.jumbotron > h1, h3, h4, h5{
+	color: #FFFFFF;
+}
+
 @media only screen and (min-device-width:375px){
 	.main{
 		height: 100vh;
 		width: 100vw;
-		background-image: url('https://images.unsplash.com/photo-1492541737557-dfd592c6e42d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');
+		/* background-image: url('https://images.unsplash.com/photo-1492541737557-dfd592c6e42d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80'); */
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		color: black;
-		text-shadow: 1px 1px #FFFFFF;
 
 	}
 
@@ -109,10 +127,12 @@
 		justify-content: center;
 	}
 
+	.main-wrap > h3 {
+		margin-bottom: 10%;
+	}
 	.main-wrap > h5 {
 		text-decoration: none;
-		color: black;
-		text-shadow: 1px 1px #FFFFFF;
+		color: #FFFFFF;
 		font-size: 1.5em;
 	}
 	.main-wrap > h5:hover {
@@ -127,7 +147,6 @@
 		height: 100vh;
 		width: 100vw;
 		background-image: none;
-		background-color: #DECCBA;
 		display: flex;
 		flex-direction: column;
 		color: #FFFFF9;
