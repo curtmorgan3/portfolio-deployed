@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import {NavBar} from './Components/NavBar';
 import Main from './Components/Main';
-import Technologies from './Components/Technologies';
+import Technologies from './Components/technologies';
 import Contact from './Components/Contact';
 import Samples from './Components/Samples';
 import './App.css';
