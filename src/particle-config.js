@@ -1,4 +1,6 @@
-{
+// For reference
+
+const config = {
   particles: {
     number: {
       value: 80,
@@ -8,13 +10,13 @@
       }
     },
     color: {
-      value: #ffffff
+      value: '#ffffff'
     },
     shape: {
       type: circle,
       stroke: {
         width: 0,
-        color: #000000
+        color: '#000000'
       },
       polygon: {
         nb_sides: 5
@@ -48,7 +50,7 @@
     line_linked: {
       enable: true,
       distance: 150,
-      color: #ffffff,
+      color: '#ffffff',
       opacity: 0.4,
       width: 1
     },
@@ -111,7 +113,7 @@
 
 
 // Alt
-
+const alt = {
 particles: {
 	number: {
 		value: 30,
@@ -195,3 +197,4 @@ interactivity: {
 	}
 },
 retina_detect: true
+}

@@ -10,7 +10,7 @@ export default class Main extends React.Component{
 
 	render(){
 		return(
-			<div>
+			<div className='jumbowrap'>
 					<Jumbotron className='main-wrap'>
 						<h1><Typed strings={['Curt Morgan']} typeSpeed={75}></Typed></h1>
 						<h3><Typed strings={['Full Stack Web Developer', 'Computer Science Enthuiast',

@@ -4,7 +4,7 @@ import './stylesheet.css';
 
 const myTreeData = [
   {
-    name: 'Curt Morgan',
+    name: 'Curt Morgan (Click Me)',
     children: [
       {
         name: 'Front End',
@@ -15,11 +15,11 @@ const myTreeData = [
 					{
 						name: 'CSS3',
 						children: [
-							{name: 'Bootstrap'}, {name: 'Animations'}, {name: 'SASS'}
+							{name: 'Bootstrap'}, {name: 'Animations'}, {name: 'SASS'}, {name: 'SVG'}
 						]
 					},
 					{
-						name: 'JavaScript (ES6)',
+						name: 'JavaScript',
 						children: [
 							{name: 'Webpack'}, {name: 'DOM'}, {name: 'TypeScript'}, {name: 'React', children: [
 								{name: 'Redux'}, {name: 'React Router'}
@@ -42,9 +42,6 @@ const myTreeData = [
 						children:[
 							{name: 'Rails'}, {name: 'ActiveRecord'}
 						]
-					},
-					{
-						name: 'Java'
 					}
 				]
       },
@@ -57,13 +54,30 @@ const myTreeData = [
 			{
 				name: 'Desktop',
 				children: [
-					{name: 'Electron'}, {name: 'Chromium'}
+					{
+						name: 'Applications',
+						children: [
+							{name: 'Electron'}, {name: 'Chromium'}
+						]
+					},
+					{
+						name: 'Games',
+						children: [
+							{name: 'C#'}, {name: 'Unity'}
+						]
+					}
 				]
 			},
 			{
 				name: 'Data',
 				children: [
-					{name: 'PostgreSQL'}, {name: 'MongoDB'}
+					{name: 'PostgreSQL'}, {name: 'MongoDB'}, {name: 'Python'}
+				]
+			},
+			{
+				name: 'IoT',
+				children: [
+					{name: 'C'}, {name: 'Embedded Systems'}, {name: 'Arduino'}, {name: 'Raspberry Pi'}
 				]
 			}
     ],
@@ -76,7 +90,7 @@ export default class MyComponent extends React.Component {
 
       <div className="tree-wrapper">
 
-        <Tree data={myTreeData} initialDepth={1} orientation='vertical' translate={{x:700, y:100}}/>
+        <Tree data={myTreeData} initialDepth={0} orientation='vertical' translate={{x:700, y:100}}/>
 
       </div>
     );

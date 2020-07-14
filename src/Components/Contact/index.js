@@ -1,5 +1,6 @@
 import React from 'react';
 import { FormControl, FormGroup, Button, Alert } from 'react-bootstrap';
+import ParticleWrapper from '../ParticlesWrapper';
 import * as emailjs from 'emailjs-com';
 import './stylesheet.css';
 
@@ -103,6 +104,7 @@ class Contact extends React.Component{
 						onClick={this.handleSubmit}
 					>Send</Button>
 				</div>
+				<ParticleWrapper />
 			</div>
 		)
 	}

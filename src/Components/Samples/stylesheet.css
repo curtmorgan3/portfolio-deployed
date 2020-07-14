@@ -1,18 +1,28 @@
 /* iPad and Larger */
 @media only screen and (min-device-width:375px){
+	canvas{
+		font-family: sans-serif;
+		text-align: center;
+		height: 100%;
+		background: #222;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
 	.samples {
 		height: 100vh;
 		width: 100vw;
-		background-image: linear-gradient(white, grey);
 		display: flex;
-		color: black;
+		color: #ffffff;
 		align-items:center;
 		justify-content: center;
 		overflow: scroll;
 	}
-
+	
 	.samples-wrapper {
-		margin-top: 15%;
+		position: absolute;
+		z-index: 2;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -20,7 +30,7 @@
 		justify-content: center;
 		width: 100%;
 		height: 100vh;
-
+		overflow: scroll;
 	}
 
 	.sample {

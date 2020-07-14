@@ -1,4 +1,5 @@
 import React from 'react';
+import ParticleWrapper from '../ParticlesWrapper';
 import './stylesheet.css';
 
 export default function Samples(props){
@@ -7,21 +8,21 @@ export default function Samples(props){
 		<div className='samples'>
 			<div className='samples-wrapper'>
 				<div className='sample'>
-					<img src={require('../../gifs/higher_grounds.gif')} alt='Magic the Gathering example' />
+					<img src={require('../../gifs/wotc.gif')} alt='Magic the Gathering example' />
 					<p><b>Wizards of the Coast </b>
 						If you're a Magic the Gathering player, you may have received this in your email inbox. The glowing radial animations are made with
 						SVG's and display the player's current stats. 
 					</p>
 				</div>
 				<div className='sample'>
-					<img src={require('../../gifs/higher_grounds.gif')} alt='New York Road Runners example' />
+					<img src={require('../../gifs/nyrr.gif')} alt='New York Road Runners example' />
 					<p><b>New York Road Runners </b>
-						Runners of the NY Marathon in 2019 were treated to this post run email with their race stats, complete with a gif of their 
+						Runners of the New York City Marathon in 2019 were treated to this post run email with their race stats, complete with a gif of their 
 						route. 
 					</p>
 				</div>
 				<div className='sample'>
-					<img src={require('../../gifs/higher_grounds.gif')} alt='Southwest Airlines example' />
+					<img src={require('../../gifs/southwest.gif')} alt='Southwest Airlines example' />
 					<p><b>Southwest Airlines </b>
 						Frequent fliers love tracking their points and miles. I made it more fun for Southwest fliers by animating their progress
 						emails. 
@@ -62,6 +63,7 @@ export default function Samples(props){
 					<p><a href='https://github.com/curtmorgan3/portfolio-deployed' rel="noopener noreferrer" target='_blank'>Check out the code for this site</a></p>
 				</div>
 			</div>
+			<ParticleWrapper />
 		</div>
 	)
 }
