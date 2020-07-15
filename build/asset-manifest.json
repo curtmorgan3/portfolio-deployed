@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.8199ed8b.chunk.css",
-  "main.js": "/static/js/main.71c3c891.chunk.js",
-  "main.js.map": "/static/js/main.71c3c891.chunk.js.map",
+  "main.css": "/static/css/main.237e0cf2.chunk.css",
+  "main.js": "/static/js/main.7b42db33.chunk.js",
+  "main.js.map": "/static/js/main.7b42db33.chunk.js.map",
   "static/js/1.39185c9b.chunk.js": "/static/js/1.39185c9b.chunk.js",
   "static/js/1.39185c9b.chunk.js.map": "/static/js/1.39185c9b.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -13,8 +13,8 @@
   "static/media/Karma_Farm.gif": "/static/media/Karma_Farm.966ead6a.gif",
   "static/media/Table_Top.gif": "/static/media/Table_Top.40a13231.gif",
   "static/media/Fight_or_Fright.gif": "/static/media/Fight_or_Fright.62dd47ef.gif",
-  "static/css/main.8199ed8b.chunk.css.map": "/static/css/main.8199ed8b.chunk.css.map",
+  "static/css/main.237e0cf2.chunk.css.map": "/static/css/main.237e0cf2.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.c7f6e74292d3204f6a191342a5f8bac7.js": "/precache-manifest.c7f6e74292d3204f6a191342a5f8bac7.js",
+  "precache-manifest.42388d392dc6c795c92c6390c104e0a6.js": "/precache-manifest.42388d392dc6c795c92c6390c104e0a6.js",
   "service-worker.js": "/service-worker.js"
 }
