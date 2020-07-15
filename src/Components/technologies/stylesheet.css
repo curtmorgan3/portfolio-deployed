@@ -1,19 +1,17 @@
-
-.tree-wrapper{
-	width: 100vw;
-	height: 100vh;
-	color: #FFFFFF;
-}
-.nodeNameBase{
-	stroke: #FFFFFF;
-}
-.nodeAttributesBase{
-	stroke: #FFFFFF;
-
-}
-
 /* iPad and Larger */
 @media only screen and (min-device-width:375px){
+	.tree-wrapper{
+		width: 100vw;
+		height: 100vh;
+		color: #FFFFFF;
+	}
+	.nodeNameBase{
+		stroke: #FFFFFF;
+	}
+	.nodeAttributesBase{
+		stroke: #FFFFFF;
+	
+	}
 
 	.technologies-page{
 		background-color: #222222;
