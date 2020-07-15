@@ -1,5 +1,9 @@
 /* iPad and Larger */
 @media only screen and (min-device-width:375px){
+	text {
+		stroke: #FFFFFF;
+		fill: #FFFFFF;
+	}
 	.tree-wrapper{
 		width: 100vw;
 		height: 100vh;
