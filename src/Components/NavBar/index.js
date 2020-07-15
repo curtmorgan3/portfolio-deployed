@@ -5,12 +5,12 @@ import './stylesheet.css';
 function NavBar(props){
 
 	return(
-		<Navbar fixedTop='true' className='navbar' inverse='true' collapseOnSelect='true'>
+		<Navbar fixedTop={true} className='navbar' inverse={true} collapseOnSelect={true}>
 			<Navbar.Header>
 				<Navbar.Toggle />
 			</Navbar.Header>
 			<Navbar.Collapse className='nav'>
-				<Nav pullRight='true'>
+				<Nav pullRight={true}>
 				<NavItem className='nav-item'
 								 onClick={() => props.setView('main')}
 				>

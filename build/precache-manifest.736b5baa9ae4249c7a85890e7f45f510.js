@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7b42db339bbb7907b1b9",
-    "url": "/static/css/main.237e0cf2.chunk.css"
+    "revision": "a63c77e82e6777949605",
+    "url": "/static/css/main.9980d8a0.chunk.css"
   },
   {
-    "revision": "7b42db339bbb7907b1b9",
-    "url": "/static/js/main.7b42db33.chunk.js"
+    "revision": "a63c77e82e6777949605",
+    "url": "/static/js/main.a63c77e8.chunk.js"
   },
   {
     "revision": "39185c9b651024f5a9bd",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/Fight_or_Fright.62dd47ef.gif"
   },
   {
-    "revision": "11997ab27fbcae41c1487f7c9aa2f146",
+    "revision": "b2babb523be31d8dfb55df6e87ac37dd",
     "url": "/index.html"
   }
 ];
